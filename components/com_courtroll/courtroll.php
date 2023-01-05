@@ -8,8 +8,7 @@
  */
 
 defined('_JEXEC') or die;
-jimport('fox5.helper.controller.controller');
-
+JLoader::registerNamespace('fox5.helper.controller.controller');
 // Application
 $app = JFactory::getApplication();
 

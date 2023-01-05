@@ -8,7 +8,7 @@ $form = $model->getForm();
 ?>
 
 
-<form action="<?php echo JRoute::_('index.php?option=com_courtroll'); ?>"
+<form action="<?php echo \Joomla\CMS\Router\Route::_('index.php?option=com_courtroll'); ?>"
     method="post" name="adminForm" id="adminForm" class="form-validate"  enctype="multipart/form-data">
   <div class="form-horizontal">
     <fieldset class="adminform">

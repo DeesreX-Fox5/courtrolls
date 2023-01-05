@@ -18,8 +18,8 @@ class DisplayController extends BaseController
 	 * @throws \Exception
 	 * @since version 4.2.4
 	 */
-	public function display($cachable = false, $urlparams = array())
-	{
-		return parent::display($cachable, $urlparams);
+	public function display($cachable = false, $urlparams = array()): DisplayController
+    {
+		return parent::display();
 	}
 }

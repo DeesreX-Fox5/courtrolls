@@ -8,7 +8,10 @@
                 filter="integer"
         />
 
-        <field name="category" type="category" extension="com_courtrolls" default="courtrolls" label="Select category" description=""/>
+        <field name="category" type="category" extension="com_courtrolls" default="courtrolls" label="Select category" description="">
+            <option value="courtrolls">Court Rolls</option>
+            <option value="communique">Communique</option>
+        </field>
 
         <field
                 name="date"
