@@ -1,0 +1,16 @@
+<config>
+    <fields name="permissions">
+        <fieldset name="component">
+            <field
+                    name="com_courtroll.delete"
+                    type="rules"
+                    label="JACTION_ADMIN"
+                    class="btn btn-primary"
+                    filter="rules"
+                    component="com_courtroll"
+                    action="com_courtroll.delete"
+                    section="component"
+            />
+        </fieldset>
+    </fields>
+</config>

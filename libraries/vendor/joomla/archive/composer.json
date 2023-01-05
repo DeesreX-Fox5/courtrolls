@@ -1,0 +1,39 @@
+{
+    "name": "joomla/archive",
+    "type": "joomla-package",
+    "description": "Joomla Archive Package",
+    "keywords": ["joomla", "framework", "archive"],
+    "homepage": "https://github.com/joomla-framework/archive",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2.5|~8.0.0|~8.1.0",
+        "joomla/filesystem": "^2.0"
+    },
+    "require-dev": {
+        "joomla/coding-standards": "^3.0@dev",
+        "joomla/test": "^2.0",
+        "phpunit/phpunit": "^8.5|^9.0"
+    },
+    "suggest": {
+        "ext-bz2": "To extract bzip2 compressed packages",
+        "ext-zip": "To extract zip compressed packages",
+        "ext-zlib": "To extract gzip or zip compressed packages"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Archive\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\Archive\\Tests\\": "Tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}

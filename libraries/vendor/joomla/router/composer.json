@@ -1,0 +1,40 @@
+{
+    "name": "joomla/router",
+    "type": "joomla-package",
+    "description": "Joomla Router Package",
+    "keywords": ["joomla", "framework", "router"],
+    "homepage": "https://github.com/joomla-framework/router",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2.5|~8.0.0|~8.1.0"
+    },
+    "require-dev": {
+        "jeremeamia/superclosure": "^2.4",
+        "joomla/coding-standards": "^3.0@dev",
+        "joomla/console": "^2.0",
+        "phpunit/phpunit": "^8.5|^9.0"
+    },
+    "conflict": {
+        "jeremeamia/superclosure": "<2.4"
+    },
+    "suggest": {
+        "jeremeamia/superclosure": "If you use Closure based controllers and want to be able to serialize the router, please install jeremeamia/superclosure",
+        "joomla/console": "If you want to use the DebugRouterCommand class, please install joomla/console"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Router\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\Router\\Tests\\": "Tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+	        "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}

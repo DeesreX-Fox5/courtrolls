@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>Filter</name>
+	<author>Fox5 - DeesreX</author>
+	<creationDate>29-11-2022</creationDate>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>deesrex@gmail.com</authorEmail>
+	<authorUrl>www.rex-topia.com</authorUrl>
+	<version>0.1.0</version>
+	<description>A module to filter through Court Rolls</description>
+	<namespace path="src">Fox5\Module\Filter</namespace>
+	<files>
+		<filename module="mod_filter">mod_fox5_filter.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+</extension>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+    <!--	add fieldset-->
+    <fields name="request">
+        <fieldset name="request">
+            <!--category field-->
+            <field
+                    name="category"
+                    type="list"
+                    label="Select a category"
+                    description=""
+                    class="input-medium"
+                    filter="string"
+                    required="true"
+            >
+                <option value="courtrolls">Courtrolls</option>
+                <option value="communique">Communiqué</option>
+                <option value="newsletter">Newsletter</option>
+            </field>
+        </fieldset>
+    </fields>
+    <layout title="calendar">
+        <message>Displays calendar view</message>
+    </layout>
+</metadata>

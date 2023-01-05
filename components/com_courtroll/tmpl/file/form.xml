@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="courtroll form">
+		<message>Displays a form for uploading a new roll</message>
+	</layout>
+</metadata>

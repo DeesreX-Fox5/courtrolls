@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="courtrolls">
+        <message>Displays courtrolls based on type selected</message>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request">
+
+            <field name="roll" type="list" default="" label="Select a Roll Type" description="">
+                <option value="Day Rolls">Day Rolls</option>
+                <option value="Opposed Motion Roll">Opposed Motion Roll</option>
+                <option value="Unopposed Motion Roll">Unopposed Motion Roll</option>
+                <option value="Urgent Court Rolls">Urgent Court Rolls</option>
+            </field>
+
+            <field
+                    name="category"
+                    type="list"
+                    label="Select a category"
+                    description=""
+                    class="input-medium"
+                    filter="string"
+                    required="true"
+            >
+                <option value="courtrolls">Courtrolls</option>
+                <option value="communique">Communiqué</option>
+                <option value="newsletter">Newsletter</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</metadata>
+

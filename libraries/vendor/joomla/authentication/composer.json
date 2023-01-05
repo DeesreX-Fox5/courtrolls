@@ -1,0 +1,41 @@
+{
+    "name": "joomla/authentication",
+    "type": "joomla-package",
+    "description": "Joomla Authentication Package",
+    "keywords": ["joomla", "framework", "authentication"],
+    "homepage": "https://github.com/joomla-framework/authentication",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2.5|~8.0.0|~8.1.0"
+    },
+    "require-dev": {
+        "joomla/coding-standards": "^3.0@dev",
+        "joomla/database": "^2.0",
+        "joomla/input": "^2.0",
+        "phpunit/phpunit": "^8.5|^9.0",
+        "symfony/phpunit-bridge": "^3.4.26|^4.1.12|^4.2.7|^5.0"
+    },
+    "conflict": {
+        "joomla/database": "<2.0"
+    },
+    "suggest": {
+        "joomla/database": "Required if you want to use Joomla\\Authentication\\Strategies\\DatabaseStrategy",
+        "joomla/input": "Required if you want to use classes in the Joomla\\Authentication\\Strategies namespace"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Authentication\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\Authentication\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}

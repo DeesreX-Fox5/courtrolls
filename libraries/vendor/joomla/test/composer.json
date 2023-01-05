@@ -1,0 +1,34 @@
+{
+    "name": "joomla/test",
+    "type": "joomla-package",
+    "description": "Joomla Test Helper Package",
+    "keywords": ["joomla", "framework", "unit test", "phpunit", "reflection"],
+    "homepage": "https://github.com/joomla-framework/test",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2.5|~8.0.0|~8.1.0"
+    },
+    "require-dev": {
+        "joomla/coding-standards": "~3.0@dev",
+        "joomla/database": "^2.0",
+        "phpunit/phpunit": "^8.5|^9.0"
+    },
+    "conflict": {
+        "joomla/database": "<2.0"
+    },
+    "suggest": {
+        "joomla/database": "To use the database test case, install joomla/database",
+        "phpunit/phpunit": "To use the database test case, install phpunit/phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Test\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpCSFixer">
+    <phpcsfixer_settings>
+      <PhpCSFixerConfiguration tool_path="$PROJECT_DIR$/libraries/vendor/bin/php-cs-fixer" />
+    </phpcsfixer_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/libraries/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/libraries/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/libraries/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/libraries/vendor/wamania/php-stemmer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/ldap" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/libraries/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/libraries/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/libraries/vendor/fgrosse/phpasn1" />
+      <path value="$PROJECT_DIR$/libraries/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/libraries/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/oauth2" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/registry" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/crypt" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/router" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/archive" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/ldap" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/session" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/data" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/filter" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/authentication" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/application" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/event" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/filesystem" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/di" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/console" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/database" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/http" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/utilities" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/string" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/oauth1" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/input" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/uri" />
+      <path value="$PROJECT_DIR$/libraries/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/libraries/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/libraries/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/libraries/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/libraries/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/libraries/vendor/voku/portable-utf8" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/libraries/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/libraries/vendor/composer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/algo26-matthias/idna-convert" />
+      <path value="$PROJECT_DIR$/libraries/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/libraries/vendor/spomky-labs/base64url" />
+      <path value="$PROJECT_DIR$/libraries/vendor/spomky-labs/cbor-php" />
+      <path value="$PROJECT_DIR$/libraries/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/libraries/vendor/jakeasmith/http_build_url" />
+      <path value="$PROJECT_DIR$/libraries/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature-algorithm-none" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/signature-pack" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature-algorithm-ecdsa" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature-algorithm-experimental" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature-algorithm-rsa" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature-algorithm-eddsa" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-signature-algorithm-hmac" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-token/jwt-core" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpseclib/bcmath_compat" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/libraries/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/libraries/vendor/enshrined/svg-sanitize" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-auth/webauthn-lib" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-auth/cose-lib" />
+      <path value="$PROJECT_DIR$/libraries/vendor/web-auth/metadata-service" />
+      <path value="$PROJECT_DIR$/libraries/vendor/tobscure/json-api" />
+      <path value="$PROJECT_DIR$/libraries/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/libraries/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/libraries/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/libraries/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/libraries/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/libraries/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/libraries/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/libraries/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/libraries/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/protocol" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/console" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/stream" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/ustring" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/consistency" />
+      <path value="$PROJECT_DIR$/libraries/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/exception" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/file" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/event" />
+      <path value="$PROJECT_DIR$/libraries/vendor/hoa/iterator" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/mediawiki" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla/test" />
+      <path value="$PROJECT_DIR$/libraries/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/libraries/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/libraries/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/libraries/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/libraries/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/libraries/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/libraries/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/module-rest" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/module-phpbrowser" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/module-webdriver" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/lib-asserts" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/module-db" />
+      <path value="$PROJECT_DIR$/libraries/vendor/softcreatr/jsonpath" />
+      <path value="$PROJECT_DIR$/libraries/vendor/codeception/module-asserts" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/libraries/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/libraries/vendor/joomla-projects/joomla-browser" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/libraries/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/libraries/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/libraries/vendor/guzzlehttp/psr7" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="roll form">
+		<message>Displays the rolls and the files uploaded to them</message>
+	</layout>
+</metadata>

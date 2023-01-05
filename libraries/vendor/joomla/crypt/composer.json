@@ -1,0 +1,44 @@
+{
+    "name": "joomla/crypt",
+    "type": "joomla-package",
+    "description": "Joomla Crypt Package",
+    "keywords": ["joomla", "framework", "crypt"],
+    "homepage": "https://github.com/joomla-framework/crypt",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2.5|~8.0.0|~8.1.0"
+    },
+    "require-dev": {
+        "defuse/php-encryption": "^2.0",
+        "joomla/coding-standards": "^3.0@dev",
+        "paragonie/sodium_compat": "^1.0",
+        "phpunit/phpunit": "^8.5|^9.0",
+        "symfony/polyfill-util": "^1.0",
+        "symfony/phpunit-bridge": "^4.4|^5.0"
+    },
+    "conflict": {
+        "defuse/php-encryption": "<2.0"
+    },
+    "suggest": {
+        "ext-openssl": "To use the OpenSSL cipher",
+        "ext-sodium": "To use the Sodium cipher",
+        "defuse/php-encryption": "To use Crypto cipher",
+        "paragonie/sodium_compat": "To use Sodium cipher if neither ext/sodium or ext/libsodium are available"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Crypt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\Crypt\\Test\\": "Tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}

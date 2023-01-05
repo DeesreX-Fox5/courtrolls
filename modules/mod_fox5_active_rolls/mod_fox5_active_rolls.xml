@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>Active Rolls</name>
+	<author>Fox5 - DeesreX</author>
+	<creationDate>29-11-2022</creationDate>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>deesrex@gmail.com</authorEmail>
+	<authorUrl>www.rex-topia.com</authorUrl>
+	<version>0.1.0</version>
+	<description>A module containing all the active rolls</description>
+	<namespace path="src">Fox5\Module\ActiveRolls</namespace>
+	<files>
+		<filename module="mod_active_rolls">mod_fox5_active_rolls.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset
+					name="basic"
+					addfieldprefix="Joomla\Component\Banners\Administrator\Field"
+			>
+				<field name="roll" type="list" default="" label="Select a Roll Type" description="">
+					<option value="Day Rolls">Day Rolls</option>
+					<option value="Opposed Motion Roll">Opposed Motion Roll</option>
+					<option value="Unopposed Motion Roll">Unopposed Motion Roll</option>
+					<option value="Urgent Court Rolls">Urgent Court Rolls</option>
+					<option value="Interlocutory Applications">Interlocutory Applications</option>
+					<option value="Judicial Management Meetings">Judicial Management Meetings</option>
+					<option value="Directives">Directives</option>
+				</field>
+
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

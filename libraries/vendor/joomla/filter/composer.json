@@ -1,0 +1,39 @@
+{
+    "name": "joomla/filter",
+    "type": "joomla-package",
+    "description": "Joomla Filter Package",
+    "keywords": ["joomla", "framework", "filter"],
+    "homepage": "https://github.com/joomla-framework/filter",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2.5|~8.0.0|~8.1.0",
+        "joomla/string": "^2.0"
+    },
+    "require-dev": {
+        "joomla/coding-standards": "^3.0@dev",
+        "joomla/language": "^2.0",
+        "phpunit/phpunit": "^8.5|^9.0"
+    },
+    "conflict": {
+        "joomla/language": "<2.0"
+    },
+    "suggest": {
+        "joomla/language": "Required only if you want to use `OutputFilter::stringURLSafe`."
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\Filter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\Filter\\Tests\\": "Tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+	        "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
